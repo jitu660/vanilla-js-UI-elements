@@ -1,9 +1,9 @@
 /*
   Edge cases not handled
   1. scroll shold be locked when dropdown is open
-  2. menu should appear always inside viewport, it should try to change position still not able to fit then should be able to overlap the button as well.
+  2. menu should appear always inside viewport, it should try to change position. If still not able to fit then should be able to overlap the button as well.
 
-  No real functionality is added in this takes no function to call when clicked on option. I wouldn't do this like this in a real project, this is done only for some TS and CSS practice.
+  No real functionality is added in this, it takes no function to call when clicked on an option. I am not intending to use it anywhere in a real project this is done as an exercise of TS and CSS.
 */
 export default function createDropDownMenu(options: string[], buttonText: string): DocumentFragment {
   const fragement = document.createDocumentFragment();
