@@ -6,4 +6,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </div>
 `;
 
-document.querySelector('#element-container')?.appendChild(initElement("dropdownMenu"))
+document.querySelector('#element-container')?.appendChild(initElement("carousel"))

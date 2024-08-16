@@ -1,0 +1,26 @@
+.carousel-window {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 3 / 1;
+}
+.slider {
+  display: flex;
+  min-height: 300px;
+  width: 100%;
+  background-color: hotpink;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  .slide {
+    background-color: var(--primary);
+    color: var(--background);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
